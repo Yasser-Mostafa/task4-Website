@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 4000px
+}
+
+.header {
+    background-color: gray;
+    width: 100%;
+    height: 55px;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+
+
+
+}
+
+.img1 {
+    width: 150px;
+    height: 55px;
+    margin-left: 150px;
+}
+
+.list1 {
+    float: right;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+
+.list1 li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    color: white;
+}
+
+.list1 li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+
+}
+
+.parent {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/ddd.jpg);
+    position: relative;
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    width: 60%;
+    height: 180;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title10 {
+    color: white;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.p10 {
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    width: 155px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+    text-transform: capitalize;
+}
+
+.btn1 {
+    background-color: #fff;
+    margin-right: 15px;
+}
+
+.btn2 {
+    background-color: blue;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+
+.title9 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 300px;
+    margin-bottom: 15px;
+}
+
+.line1 {
+    width: 90px;
+    height: 5px;
+    background-color: rgb(54, 43, 216);
+    margin: auto;
+
+    margin-top: 2px;
+    margin-bottom: 100px;
+
+}
+
+
+.parent2 {
+
+    overflow: auto;
+}
+
+.div4 {
+    clear: both;
+}
+
+.div1 {
+    width: 300px;
+    height: 220px;
+    border: 2px solid rgb(76, 58, 116);
+    border-radius: 30px;
+    text-align: center;
+    float: left;
+
+    margin-left: 250px;
+
+
+}
+
+.title1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.p1 {
+    color: rgb(167, 159, 159);
+    margin-bottom: 5px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.a10 {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(85, 85, 228);
+}
+
+i {
+    color: rgb(111, 111, 226);
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
